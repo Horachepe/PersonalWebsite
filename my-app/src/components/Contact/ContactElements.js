@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const ContactContainer = styled.div`
     background: #0a192f;
@@ -78,4 +79,28 @@ export const ContactButton = styled.button`
     &:hover {
         background: #52e0b1;
     }
+`;
+
+export const BackArrow = styled(Link)`
+    color: #64ffda;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: #52e0b1;
+    }
+`;
+
+export const SuccessMessage = styled.p`
+    color: #64ffda;
+    font-size: 20px;
+    margin-top: 18px;
+`;
+
+export const ErrorMessage = styled.p`
+    color: #ff6b6b;
+    font-size: 20px;
+    margin-top: 18px;
 `;

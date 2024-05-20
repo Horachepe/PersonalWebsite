@@ -1,24 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Nav, NavbarContainer, NavLogo, NavMenu, NavItem, NavLinks } from './HeaderElements';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">Jose M Garcia</NavLogo>
+                <NavLogo as={Link} smooth to="/#home">Jose M Garcia</NavLogo>
                 <NavMenu>
                     <NavItem>
-                        <NavLinks to="/home">Home</NavLinks>
+                        <NavLinks as={Link} smooth to="/#home">Home</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/about">About</NavLinks>
+                        <NavLinks as={Link} smooth to="/#about">About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/experience">Experience</NavLinks>
+                        <NavLinks as={Link} smooth to="/#experience">Experience</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="/projects">Projects</NavLinks>
+                        <NavLinks as={Link} smooth to="/#projects">Projects</NavLinks>
                     </NavItem>
                     <NavItem>
                         <NavLinks to="/contact">Contact</NavLinks>
