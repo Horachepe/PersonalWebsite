@@ -5,9 +5,9 @@ const Home = () => {
     return (
         <HomeContainer>
             <HomeContent>
-                <HomeH1>Welcome to my portfolio</HomeH1>
+                <HomeH1>Jose M. Garcia</HomeH1>
                 <HomeP>
-                    Hi, I'm Jose M Garcia, a Computer Science student at the university of Texas at Dallas. Explore my projects and eperiences below.
+                    Web Developer
                 </HomeP>
             </HomeContent>
         </HomeContainer>
