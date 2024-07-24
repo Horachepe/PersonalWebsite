@@ -20,9 +20,9 @@ const Header = () => {
                     <NavItem>
                         <NavLinks as={Link} smooth to="/#projects">Projects</NavLinks>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                         <NavLinks to="/contact">Contact</NavLinks>
-                    </NavItem>
+                    </NavItem> */}
                 </NavMenu>
             </NavbarContainer>
         </Nav>

@@ -1,14 +1,14 @@
 import React from 'react';
-import { HomeContainer, HomeContent, HomeH1, HomeP } from './HomeElements';
+import { HomeContainer, HomeContent, HomeH1, AnimatedTitle} from './HomeElements';
 
 const Home = () => {
     return (
         <HomeContainer>
             <HomeContent>
                 <HomeH1>Jose M. Garcia</HomeH1>
-                <HomeP>
+                <AnimatedTitle>
                     Web Developer
-                </HomeP>
+                </AnimatedTitle>
             </HomeContent>
         </HomeContainer>
     );

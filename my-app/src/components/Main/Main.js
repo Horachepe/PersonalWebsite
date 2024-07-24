@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainContainer, Section, SectionTitle, SectionContent } from './MainElements';
+import { MainContainer, Section  } from './MainElements';
 import Home from '../Home/home';
 import About from '../About/about';
 import Experience from '../Experience/experience';

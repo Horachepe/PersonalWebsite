@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const HomeContainer = styled.div`
     background: #0a192f;
@@ -49,4 +49,25 @@ export const HomeP = styled.p`
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }
+`;
+
+const typing = keyframes`
+    from { width: 0 }
+    to { width: 50% }
+`;
+
+const blinkCaret = keyframes`
+    from, to { border-color: transparent }
+    50% { border-color: #64ffda }
+`;
+
+export const AnimatedTitle = styled.div`
+    font-size: 24px;
+    color: #8892b0;
+    border-right: 2px solid #64ffda;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 11ch;  // Adjust the width based on content
+    animation: ${typing} 2s steps(12, end), ${blinkCaret} .75s step-end 4;
+    border-right-width: 0px;
 `;
