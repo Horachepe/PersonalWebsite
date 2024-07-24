@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FooterContainer = styled.footer`
-    background: #0a192f;
+    background: #0f0f0f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ export const FooterContent = styled.div`
 `;
 
 export const FooterText = styled.p`
-    color: #8892b0;
+    color: #e5e4e2;
     font-size: 16px;
     text-align: center;
 `;

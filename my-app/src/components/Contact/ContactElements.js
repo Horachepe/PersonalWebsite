@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const ContactContainer = styled.div`
-    background: #0a192f;
+    background: #0f0f0f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@ export const ContactContent = styled.div`
 `;
 
 export const ContactH1 = styled.h1`
-    color: #64ffda;
+    color: #b22222;
     font-size: 48px;
     text-align: center;
 
@@ -50,8 +50,8 @@ export const ContactInput = styled.input`
     width: 100%;
     border: none;
     border-radius: 4px;
-    background: #112240;
-    color: #8892b0;
+    background: #2a3439;
+    color: #e5e4e2;
 `;
 
 export const ContactTextArea = styled.textarea`
@@ -61,8 +61,8 @@ export const ContactTextArea = styled.textarea`
     height: 150px;
     border: none;
     border-radius: 4px;
-    background: #112240;
-    color: #8892b0;
+    background: #2a3439;
+    color: #e5e4e2;
 `;
 
 export const ContactButton = styled.button`
@@ -70,37 +70,37 @@ export const ContactButton = styled.button`
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
-    background: #64ffda;
-    color: #0a192f;
+    background: #b22222;
+    color: #e5e4e2;
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s ease;
 
     &:hover {
-        background: #52e0b1;
+        background: #800000;
     }
 `;
 
 export const BackArrow = styled(Link)`
-    color: #64ffda;
+    color: #b22222;
     font-size: 24px;
     margin-bottom: 20px;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-        color: #52e0b1;
+        color: #800000;
     }
 `;
 
 export const SuccessMessage = styled.p`
-    color: #64ffda;
+    color: #b22222;
     font-size: 20px;
     margin-top: 18px;
 `;
 
 export const ErrorMessage = styled.p`
-    color: #ff6b6b;
+    color: #b22222;
     font-size: 20px;
     margin-top: 18px;
 `;

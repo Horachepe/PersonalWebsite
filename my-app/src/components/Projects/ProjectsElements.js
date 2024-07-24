@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
-    background: #0a192f;
+        background: linear-gradient(135deg, #2a3439, #0f0f0f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ export const ProjectsContent = styled.div`
 `;
 
 export const ProjectsH1 = styled.h1`
-    color: #64ffda;
+    color: #b22222;
     font-size: 48px;
     text-align: center;
 
@@ -38,7 +38,7 @@ export const ProjectsH1 = styled.h1`
 `;
 
 export const Project = styled.div`
-    background: #112240;
+    background: #2a3439;
     padding: 16px;
     border-radius: 8px;
     max-width: 360px;
@@ -66,13 +66,13 @@ export const Project = styled.div`
 `;
 
 export const ProjectTitle = styled.h2`
-    color: #64ffda;
+    color: #b22222;
     font-size: 24px;
     text-align: center;
 `;
 
 export const ProjectDescription = styled.p`
-    color: #8892b0;
+    color: #e5e4e2;
     font-size: 18px;
     margin-top: 8px;
     text-align: center;

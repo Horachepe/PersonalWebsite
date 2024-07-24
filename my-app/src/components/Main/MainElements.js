@@ -7,16 +7,16 @@ export const MainContainer = styled.div`
 
 export const Section = styled.section`
     padding: 100px 20px;
-    background: #0a192f;
-    color: #8892b0;
+        background: linear-gradient(135deg, #2a3439, #0f0f0f);
+    color: #e5e4e2;
 
     &:nth-child(even) {
-        background: #112240;
+        background: linear-gradient(135deg, #2a3439, #0f0f0f);
     }
 `;
 
 export const SectionTitle = styled.h1`
-    color: #64ffda;
+    color: #b22222;
     font-size: 48px;
     text-align: center;
     margin-bottom: 24px;

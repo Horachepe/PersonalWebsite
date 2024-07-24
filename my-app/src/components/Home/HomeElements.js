@@ -1,7 +1,16 @@
 import styled, { keyframes } from 'styled-components';
 
+const fadeIn = keyframes`
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+`;
+
 export const HomeContainer = styled.div`
-    background: #0a192f;
+    background: linear-gradient(135deg, #2a3439, #0f0f0f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +31,10 @@ export const HomeContent = styled.div`
 `;
 
 export const HomeH1 = styled.h1`
-    color: #64ffda;
+    color: #b22222;
     font-size: 48px;
     text-align: center;
+    animation: ${fadeIn} 4s ease-in-out;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -37,7 +47,7 @@ export const HomeH1 = styled.h1`
 
 export const HomeP = styled.p`
     margin-top: 24px;
-    color: #8892b0;
+    color: #e5e4e2;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
@@ -58,13 +68,13 @@ const typing = keyframes`
 
 const blinkCaret = keyframes`
     from, to { border-color: transparent }
-    50% { border-color: #64ffda }
+    50% { border-color: #b22222 }
 `;
 
 export const AnimatedTitle = styled.div`
     font-size: 24px;
-    color: #8892b0;
-    border-right: 2px solid #64ffda;
+    color: #e5e4e2;
+    border-right: 2px solid #b22222;
     white-space: nowrap;
     overflow: hidden;
     width: 11ch;  // Adjust the width based on content

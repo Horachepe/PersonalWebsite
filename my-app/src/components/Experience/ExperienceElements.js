@@ -11,7 +11,7 @@ export const Timeline = styled.div`
         bottom: 0;
         left: 50%;
         width: 2px;
-        background: #64ffda;
+        background: #b22222;
         transform: translateX(-50%);
     }
 `;
@@ -30,7 +30,7 @@ export const TimelineItem = styled.div`
 export const TimelineCircle = styled.div`
     width: 20px;
     height: 20px;
-    background-color: #64ffda;
+    background-color: #b22222;
     border-radius: 50%;
     position: absolute;
     top: 35px;
@@ -45,10 +45,11 @@ export const TimelineCircle = styled.div`
 
 export const TimelineContent = styled.div`
     padding: 10px 20px;
-    background: #0a192f;
+    background: #2a3439;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 20px;
+    color: #e5e4e2;
     &:nth-child(odd) {
         text-align: left;
     }
@@ -58,7 +59,7 @@ export const TimelineContent = styled.div`
 `;
 
 export const ExperienceContainer = styled.div`
-    background: #0a192f;
+        background: linear-gradient(135deg, #2a3439, #0f0f0f);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +80,7 @@ export const ExperienceContent = styled.div`
 `;
 
 export const ExperienceH1 = styled.h1`
-    color: #64ffda;
+    color: #800000;
     font-size: 48px;
     text-align: center;
 
@@ -94,7 +95,7 @@ export const ExperienceH1 = styled.h1`
 
 export const ExperienceP = styled.p`
     margin-top: 24px;
-    color: #8892b0;
+    color: #e5e4e2;
     font-size: 24px;
     text-align: center;
     max-width: 800px;

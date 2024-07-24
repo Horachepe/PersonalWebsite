@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SocialTitle = styled.p`
-    color: #64ffda;
+    color: #b22222;
     font-size: 18px;
     text-align: center;
     margin-bottom: 15px;
@@ -19,24 +19,31 @@ export const SocialIconContainer = styled.div`
 export const IconsRow = styled.div`
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     a {
-        margin: 0 10px;
+        margin: 10px;
     }
 `;
 
 export const ProfileImage = styled.img`
-    width: 50%;
+    width: 100%;
+    max-width: 500px;
     border-radius: 10px;
     margin-right: 20px;
+
+    @media screen and (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 `;
 
 export const AboutContainer = styled.div`
-    background: #0a192f;
+        background: linear-gradient(135deg, #2a3439, #0f0f0f);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0 30px;
     position: relative;
     z-index: 1;
@@ -50,10 +57,14 @@ export const AboutContent = styled.div`
     flex-direction: row;
     align-items: center;
     width: 100%;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 export const AboutH1 = styled.h1`
-    color: #64ffda;
+    color: #800000;
     font-size: 48px;
     text-align: center;
 
@@ -68,17 +79,19 @@ export const AboutH1 = styled.h1`
 
 export const AboutP = styled.p`
     margin-top: 24px;
-    color: #8892b0;
+    color: #e5e4e2;
     font-size: 24px;
     text-align: center;
     max-width: 800px;
-    padding: 0 80px;
+    padding: 0 20px;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
+        padding: 0 40px;
     }
 
     @media screen and (max-width: 480px) {
         font-size: 18px;
+        padding: 0 20px;
     }
 `;
