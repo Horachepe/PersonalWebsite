@@ -13,7 +13,7 @@ const Projects = () => {
                     </Project>
                     <Project>
                         <ProjectTitle><a rel="noreferrer" href="https://ieeexplore.ieee.org/document/10536542" target="_blank">AI Virtual Streamer 2.0</a></ProjectTitle>
-                        <ProjectDescription>The V-Tuber was updgraded to a virtual environment where the user is able to tactically interact and communicate with the agent using B-haptics technologies.</ProjectDescription>
+                        <ProjectDescription>The V-Tuber was updgraded to a virtual environment where the user is able to tactically interact and communicate with the agent using B-haptics technologies on Unity's platform.</ProjectDescription>
                     </Project>
                     <Project>
                         <ProjectTitle><a rel="noreferrer" href="https://github.com/acm-projects/RPG" target="_blank">RPG!</a></ProjectTitle>
