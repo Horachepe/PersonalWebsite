@@ -32,7 +32,7 @@ To get a local copy up and running, follow these simple steps.
 
 - Node.js and npm should be installed on your machine. You can download them from [here](https://nodejs.org/).
 
-### Installation
+## Installation
 
 1. Clone the repo
    ```sh
@@ -44,7 +44,7 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    npm install
 
-# Usage
+## Usage
 
 1. To start the development server, run:
    ```sh   
