@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website! This project was created using React to showcase my work, skills, and experiences.
 
+- Visit my website [here](https://jmgonlineportfolio.web.app/)
+
 ## Table of Contents
 
 - [About the Project](#about-the-project)
