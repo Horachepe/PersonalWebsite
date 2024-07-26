@@ -37,13 +37,13 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/horachepe/PersonalWebsite.git
+   git clone https://github.com/Horachepe/PersonalWebsite.git
 2. Navigate to the project directory
    ```sh
    cd PersonalWebsite
 3. Install NPM packages
    ```sh
-   npm insttall
+   npm install
 
 # Usage
 
@@ -64,4 +64,4 @@ The page will reload if you make edits. You will also see any lint errors in the
 ## Contact
 
 Jose M Garcia - JMG230000@utdallas.edu
-https://github.com/horachepe/PersonalProject
+https://github.com/Horachepe/PersonalWebsite
