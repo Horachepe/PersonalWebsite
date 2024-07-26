@@ -11,7 +11,6 @@ Welcome to my personal portfolio website! This project was created using React t
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
-- [License](#license)
 
 ## About the Project
 
