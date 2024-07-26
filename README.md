@@ -50,8 +50,8 @@ To get a local copy up and running, follow these simple steps.
 1. To start the development server, run:
    ```sh   
    npm start
-This will run the app in the development mode. Open http://localhost:3000 to view it in the browser.
-The page will reload if you make edits. You will also see any lint errors in the console.
+- This will run the app in the development mode. Open http://localhost:3000 to view it in the browser.
+- The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## Technologies Used
 
@@ -63,5 +63,5 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 ## Contact
 
-Jose M Garcia - JMG230000@utdallas.edu
-https://github.com/Horachepe/PersonalWebsite
+- Jose M Garcia - JMG230000@utdallas.edu
+- https://github.com/Horachepe/PersonalWebsite
